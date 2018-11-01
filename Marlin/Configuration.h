@@ -32,7 +32,7 @@
  * - LCD controller
  * - Extra features
  *
- * Advanced settings can be found in Configuration_adv.h
+ * Advanced settings can be found in Configuration_adv.hf
  *
  */
 #ifndef CONFIGURATION_H
@@ -608,7 +608,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 800, 180 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 800, 207 }
 
 /**
  * Default Max Feed Rate (mm/s)
